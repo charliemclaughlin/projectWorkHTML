@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marthron Registration</title>
+</head>
+
+<body>
+    <title></title>
+    <h1>Race Registration</h1>
+    <form action="/dummy">
+        <label for="firstName">Enter First name</label>
+        <input type=text id="firstName" name="firstName" minlength="5" maxlength="20" required>
+        <label for="lastName">Enter Last name</label>
+        <input type=text id="lastName" name="lastName" minlength="5" maxlength="20" required>
+        <p>
+            <label for="run5K">Run 5K</label>
+            <input type="Radio" name="race" id="run5K" value="run5K">
+        </p>
+        <p>
+            <label for="half Marthron">half Marthron</label>
+            <input type="Radio" name="race" id="half Marthron" value="half Marthron">
+        </p>
+        <p>
+            <label for="full Marthron">full Marthron</label>
+            <input type="Radio" name="race" id="full Marthron" value="full Marthron">
+        </p>
+        <p>
+        <p <label for="email">Enter email</label>
+            <input type="email" name="email" id="email" value="email" required>
+            <label for="password">Enter password </label>
+            <input type="password" name="password" id="password" value="password" minlength="5" maxlength="20" required>
+        </p>
+        <label for="age">Enter Age </label>
+        <select name="age">
+            <option value="u18">u18</option>
+            <option value="18to21">18to21</option>
+            <option value="Over40">Over40</option>
+            <option value="Over50">Over50</option>
+
+        </select>
+        <p>
+            <button>Register</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
